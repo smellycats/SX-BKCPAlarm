@@ -7,7 +7,7 @@ class ConfigTest(object):
         self.my_ini = MyIni()
         
     def test_kakou(self):
-        print self.my_ini.get_kakou()
+        print self.my_ini.get_kakou()['cityname']
 
     def test_sms(self):
         print self.my_ini.get_sms()
